@@ -1,0 +1,8 @@
+components:
+  - name: func
+    runtime: dotnet
+    target: function
+    project: src/Func/Func.csproj
+    dotnet-version: '10.0.x'
+    app-test: func-test
+    app-prod: func
